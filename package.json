@@ -1,0 +1,31 @@
+{
+  "name": "extendscript.prototypes",
+  "version": "0.0.1",
+  "description": "some prototypes i like",
+  "main": "src/Prototypes.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fabiantheblind/extendscript.prototypes.git"
+  },
+  "keywords": [
+    "prototypes"
+  ],
+  "author": "fabiantheblind",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabiantheblind/extendscript.prototypes/issues"
+  },
+  "homepage": "https://github.com/fabiantheblind/extendscript.prototypes",
+  "devDependencies": {
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-wrap": "^0.3.0",
+    "grunt-notify": "^0.2.20",
+    "load-grunt-tasks": "^0.4.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt": "^0.4.4"
+  }
+}
