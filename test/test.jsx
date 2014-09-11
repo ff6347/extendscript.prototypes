@@ -1,0 +1,1 @@
+﻿#include "../dist/extendscript.prototypes.0.0.1.jsx" // jshint ignore:linevar arr = [1,2,3,4,5,6];arr.forEach(function logArrayElements(element, index, array) {  $.writeln('a[' + index + '] = ' + element);});
