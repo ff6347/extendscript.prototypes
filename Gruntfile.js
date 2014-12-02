@@ -59,6 +59,8 @@ module.exports = function (grunt) {
           "src/Prototypes.jsx",
           "src/Array.where.jsx",
           "src/Array.forEach.jsx",
+          "src/Array.filter.jsx",
+          "src/Array.indexOf.jsx",
           "src/String.localeCompare.jsx",
 
         ],
@@ -79,7 +81,7 @@ module.exports = function (grunt) {
   // // This is required if you use any options.
   grunt.task.run('notify_hooks');
 
-  grunt.registerTask('build-dist', ['concat:dist']);
+  grunt.registerTask('build', ['concat:dist']);
   // Default task.
   grunt.registerTask('default', ['watch']);
 };
