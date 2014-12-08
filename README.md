@@ -1,7 +1,15 @@
 extendscript.prototypes
 =======================
 
+
 A collection of usefull prototypes  
+
+compile b running:  
+
+    npm install && grunt build
+
+concats all the prototypes.
+
 
 Copyright (c) 2014 Fabian Moron Zirfas
 
