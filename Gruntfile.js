@@ -57,7 +57,7 @@ module.exports = function (grunt) {
 
         src: [
           "src/Prototypes.jsx",
-          "src/Array.where.jsx",
+          // "src/Array.where.jsx",
           "src/Array.forEach.jsx",
           "src/Array.filter.jsx",
           "src/Array.indexOf.jsx",
