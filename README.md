@@ -1,18 +1,19 @@
 extendscript.prototypes
 =======================
 
+[![npm version](https://badge.fury.io/js/extendscript.prototypes.svg)](https://badge.fury.io/js/extendscript.prototypes)
 
 A collection of usefull prototype polyfills for extendscript (mostly taken from other sources and in some cases adapted to the extendscript environment)
 
 Concat all individual polyfills by running:  
 
-    npm install && grunt build
+    npm install && npm run concat
 
 You can use it as an npm module. Run:
 
-    npm install (--save-dev) extendscript.prototypes
+    npm install extendscript.prototypes
     
-And integrate wether one polyfill from `src/<polyfill>.jsx` or the all concatenated ones `dist/extendscript.prototypes.<version>.jsx`
+And integrate wether one polyfill from `./node_modules/extendscript.prototypes/src/<polyfill>.js` or the all concatenated ones `./node_modules/extendscript.prototypes/lib/extendscript.prototypes.js`
 
 There are actually polyfills for:
 - Array.filter
