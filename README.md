@@ -2,14 +2,31 @@ extendscript.prototypes
 =======================
 
 
-A collection of usefull prototypes  
+A collection of usefull prototype polyfills for extendscript (mostly taken from other sources and in some cases adapted to the extendscript environment)
 
-compile b running:  
+Concat all individual polyfills by running:  
 
     npm install && grunt build
 
-concats all the prototypes.
+You can use it as an npm module. Run:
 
+    npm install (--save-dev) extendscript.prototypes
+    
+And integrate wether one polyfill from `src/<polyfill>.jsx` or the all concatenated ones `dist/extendscript.prototypes.<version>.jsx`
+
+There are actually polyfills for:
+- Array.filter
+- Array.forEach
+- Array.indexOf
+- Array.reduce
+- Array.where
+- Object.defineProperty
+- String.localeCompare
+
+The list will be improved while the demand increases.
+
+
+--
 
 Copyright (c) 2014 Fabian Moron Zirfas
 
