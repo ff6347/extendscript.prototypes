@@ -2,9 +2,9 @@
   "name": "extendscript.prototypes",
   "version": "0.0.5",
   "description": "some prototypes i like",
-  "main": "src/Prototypes.jsx",
+  "main": "./lib/extendscript.prototypes.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "concat": "node ./npm/concat.js"
   },
   "repository": {
     "type": "git",
@@ -19,13 +19,5 @@
     "url": "https://github.com/fabiantheblind/extendscript.prototypes/issues"
   },
   "homepage": "https://github.com/fabiantheblind/extendscript.prototypes",
-  "devDependencies": {
-    "grunt-contrib-copy": "^0.5.0",
-    "grunt-wrap": "^0.3.0",
-    "grunt-notify": "^0.2.20",
-    "load-grunt-tasks": "^0.4.0",
-    "grunt-contrib-concat": "^0.4.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt": "^0.4.4"
-  }
+  "devDependencies": {}
 }
