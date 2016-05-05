@@ -1,6 +1,6 @@
 {
   "name": "extendscript.prototypes",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "some prototypes i like",
   "main": "./lib/extendscript.prototypes.js",
   "scripts": {
