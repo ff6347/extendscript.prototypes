@@ -1,5 +1,5 @@
 // A collection of usefull prototypes
-// Copyright (c) 2014 Fabian Moron Zirfas
+// Copyright (c) 2014 -2016 Lucas Vogel & Fabian Moron Zirfas
 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
