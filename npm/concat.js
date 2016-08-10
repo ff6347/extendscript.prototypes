@@ -17,6 +17,8 @@ var filesArray = [
 	path.join(__dirname, '../src/Array.forEach.js'),
 	path.join(__dirname, '../src/Array.filter.js'),
 	path.join(__dirname, '../src/Array.indexOf.js'),
+	path.join(__dirname, '../src/Array.reduce.js'),
+	path.join(__dirname, '../src/Array.some.js'),
 	path.join(__dirname, '../src/String.localeCompare.js')
 ];
 
