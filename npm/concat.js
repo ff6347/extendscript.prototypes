@@ -11,31 +11,31 @@ var path = require('path');
 var EOL = '\n';
 var FILE_ENCODING = 'utf-8';
 var filesArray = [
-	path.join(__dirname, '../src/Prototypes.js'),
-	path.join(__dirname, '../src/Object.defineProperty.js'),
-	path.join(__dirname, '../src/Array.where.js'),
-	path.join(__dirname, '../src/Array.forEach.js'),
-	path.join(__dirname, '../src/Array.filter.js'),
-	path.join(__dirname, '../src/Array.indexOf.js'),
-	path.join(__dirname, '../src/Array.reduce.js'),
-	path.join(__dirname, '../src/Array.some.js'),
-	path.join(__dirname, '../src/String.localeCompare.js')
+  path.join(__dirname, '../src/Prototypes.js'),
+  path.join(__dirname, '../src/Object.defineProperty.js'),
+  path.join(__dirname, '../src/Array.where.js'),
+  path.join(__dirname, '../src/Array.forEach.js'),
+  path.join(__dirname, '../src/Array.filter.js'),
+  path.join(__dirname, '../src/Array.indexOf.js'),
+  path.join(__dirname, '../src/Array.reduce.js'),
+  path.join(__dirname, '../src/Array.some.js'),
+  path.join(__dirname, '../src/String.localeCompare.js')
 ];
 
 function concat(opts) {
-	var fileList = opts.src;
-	var distPath = opts.dest;
-	var out = fileList.map(function(filePath){
-		return fs.readFileSync(filePath, FILE_ENCODING);
-	});
+  var fileList = opts.src;
+  var distPath = opts.dest;
+  var out = fileList.map(function(filePath) {
+    return fs.readFileSync(filePath, FILE_ENCODING);
+  });
 
-	fs.writeFileSync(distPath, out.join(EOL), FILE_ENCODING);
-	console.log(' '+ distPath +' built.');
+  fs.writeFileSync(distPath, out.join(EOL), FILE_ENCODING);
+  console.log(' ' + distPath + ' built.');
 }
 
 concat({
-	src : filesArray,
-	dest : path.join(__dirname, '../lib/extendscript.prototypes.js')
+  src: filesArray,
+  dest: path.join(__dirname, '../lib/extendscript.prototypes.js')
 });
 
 process.exit();
