@@ -12,7 +12,7 @@ Concat all individual polyfills by running:
 You can use it as an npm module. Run:
 
     npm install extendscript.prototypes
-    
+
 And integrate wether one polyfill from `./node_modules/extendscript.prototypes/src/<polyfill>.js` or the all concatenated ones `./node_modules/extendscript.prototypes/lib/extendscript.prototypes.js`
 
 There are actually polyfills for:
@@ -22,6 +22,7 @@ There are actually polyfills for:
 - Array.reduce
 - Array.where
 - Object.defineProperty
+- Object.assign
 - String.localeCompare
 
 The list will be improved while the demand increases.
@@ -29,7 +30,7 @@ The list will be improved while the demand increases.
 
 --
 
-Copyright (c) 2014 - 2016 Lucas Vogel & Fabian Moron Zirfas 
+Copyright (c) 2014 - 2016 Lucas Vogel & Fabian Moron Zirfas
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
