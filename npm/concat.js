@@ -13,6 +13,7 @@ var FILE_ENCODING = 'utf-8';
 var filesArray = [
   path.join(__dirname, '../src/Prototypes.js'),
   path.join(__dirname, '../src/Object.defineProperty.js'),
+  path.join(__dirname, '../src/Object.assign.js'),
   path.join(__dirname, '../src/Array.where.js'),
   path.join(__dirname, '../src/Array.forEach.js'),
   path.join(__dirname, '../src/Array.filter.js'),
